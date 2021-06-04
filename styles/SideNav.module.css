@@ -1,0 +1,51 @@
+.Container{
+    flex: 0.45;
+    border-radius: 1px solid whitesmoke;
+    height: 100vh;
+    min-width: 300px;
+    max-width: 300px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.Container::-webkit-scrollbar{
+    display: none;
+}
+
+.navTop{
+    display: flex;
+    position: sticky;
+    height: 80px;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 1;
+}
+
+.Avatar:hover,.Message:hover,.more:hover{
+    opacity: .8;
+}
+
+.searchWrapper{
+    display: flex;
+    align-items: center;
+    padding: 2.5%;
+}
+.SearchIcon{
+    cursor: pointer;
+}
+.searchBox{
+    flex: 1;
+    border: none;
+    outline-width: 0;
+}
+
+.ChatButton{
+    width: 100%;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 3px solid whitesmoke;
+}
+
