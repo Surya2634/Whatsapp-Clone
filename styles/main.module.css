@@ -1,0 +1,16 @@
+.MainContainer{
+    display: flex;
+}
+
+.Chatscreen{
+    flex: 1;
+    overflow: scroll;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.Chatscreen::-webkit-scrollbar{
+    display: none;
+}
+
